@@ -1,7 +1,7 @@
 /*
  * Project: Right Angled Triangle Mirrored
  * @version 1.0.0
- * @author: Sitaram
+ * @author: Sitaram Date: 17/04/2023
  * 
  * Idea: Understanding Nested loops in Java programing
  * 
