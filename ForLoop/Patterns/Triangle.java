@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /*
  * Project: Patterns
  * @version: 1.0.0
@@ -9,18 +7,20 @@ import java.util.Scanner;
  * 
  * Problem Description: Printing the Triangle using column decrease technique, so it apperas as a equilateral 
  * Triangle.
- *                row1    * * * * * * * * * *                
-                  row2     * * * * * * * * *
-                  row3      * * * * * * * *
-                  row4       * * * * * * *
-                  row5        * * * * * *
-                  row6         * * * * *
-                  row7          * * * *
-                  row8           * * *
-                  row9            * *
-                  row10            *
+ *                                     Row: 1           *
+                                       Row: 2          * *
+                                       Row: 3         * * *
+                                       Row: 4        * * * *
+                                       Row: 5       * * * * *
+                                       Row: 6      * * * * * *
+                                       Row: 7     * * * * * * *
+                                       Row: 8    * * * * * * * *
+                                       Row: 9   * * * * * * * * *
+                                       Row: 10  * * * * * * * * * *
  */
-public class Triangle{
+import java.util.Scanner;
+
+ public class Triangle{
     public static void main(String[] args) {
         Scanner UserInput = new Scanner(System.in);
 
