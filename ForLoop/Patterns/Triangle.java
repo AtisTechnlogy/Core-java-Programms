@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
  * Project: Patterns
  * @version: 1.0.0
@@ -18,23 +20,24 @@
                   row9            * *
                   row10            *
  */
-import java.util.Scanner;
-
-public class Triangle {
-    public static void main(String[] args){
+public class Triangle{
+    public static void main(String[] args) {
         Scanner UserInput = new Scanner(System.in);
 
-        System.out.print("Enter Number of Rows: ");
+        System.out.print("Enter the Number of Rows: ");
         int rows = UserInput.nextInt();
-        for(int i = 1; i<=rows; i++){
-            System.out.print("row"+i+ "  ");
-            for(int j = 1; j<=i; j++){
+        UserInput.close();
+        
+        for(int i = 1; i <= rows; i++){
+            System.out.print("Row: "+i);
+            for(int j= rows; j>=i; j--){
                 System.out.print(" ");
             }
-            for(int j = rows; j>=i; j--){
+            for(int j = 1; j<=i; j++){
                 System.out.print(" *");
             }
             System.out.println();
         }
+        
     }
 }
