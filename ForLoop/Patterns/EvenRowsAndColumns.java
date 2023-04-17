@@ -20,9 +20,9 @@ public class EvenRowsAndColumns {
         System.out.print("Enter total number of columns and rows:");
         int rows = UserInput.nextInt();  
         for(int i = 1; i<=rows; i++){
-                System.out.print(i);
+                System.out.print(i+".");
                 for(int j = 1; j<=rows; j++){
-                    System.out.print(" |"+"_"+j+"|");
+                    System.out.print(" "+j);
                 }
                 System.out.println();
             }
