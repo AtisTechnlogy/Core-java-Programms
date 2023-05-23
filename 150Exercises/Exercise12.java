@@ -13,5 +13,6 @@ public class Exercise12 {
         float Average = (a+b+c)/3;
 
         System.out.println("Average of "+ a +","+ b +","+ c + ", is " + Average );
+        UserInput.close();
     }
 }

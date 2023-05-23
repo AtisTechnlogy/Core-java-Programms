@@ -11,6 +11,7 @@ public class Exercise5 {
             int c = a*b;
 
             System.out.println(a + "*" + b + "=" + c);
+            UserInput.close();
         }
    
 }

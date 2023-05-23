@@ -14,5 +14,6 @@ public class Exercise6 {
      System.out.println(a +"X"+ b + "=" + (a*b));
      System.out.println(a +"/"+ b + "=" + (a/b));
      System.out.println(a +" mod "+ b +"="+ (a%b) );
+     UserInput.close();
    } 
 }

@@ -11,5 +11,6 @@ public class Exercise7 {
     {
         System.out.println(a + " X " + i + "=" + (a*i) );
     }
+    UserInput.close();
   } 
 }

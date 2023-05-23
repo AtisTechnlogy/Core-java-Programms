@@ -22,5 +22,6 @@ public class Exercise19
             System.out.print(bin_num[i--]);
         }
         System.out.println();
+        UserInput.close();
     }
 }
