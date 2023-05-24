@@ -26,5 +26,6 @@ public class EvenRowsAndColumns {
                 }
                 System.out.println();
             }
+            UserInput.close();
     }
 }

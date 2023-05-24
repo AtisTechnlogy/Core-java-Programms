@@ -29,5 +29,6 @@ public class ColumnIncrease {
             }
             System.out.println();
         }
+        UserInput.close();
     }
 }

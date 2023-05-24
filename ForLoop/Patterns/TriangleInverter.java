@@ -16,5 +16,6 @@ public class TriangleInverter {
             }
             System.out.println();
         }
+        UserInput.close();
     }
 }
